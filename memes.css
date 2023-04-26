@@ -1,0 +1,32 @@
+.memes-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.memes-container1 {
+  width: 100%;
+  height: 74px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+}
+.memes-text {
+  margin-left: 10px;
+}
+.memes-button {
+  right: 120px;
+  bottom: 19px;
+  position: absolute;
+}
+.memes-navlink {
+  text-decoration: none;
+}
+.memes-button1 {
+  right: 20px;
+  bottom: 19px;
+  position: absolute;
+}
