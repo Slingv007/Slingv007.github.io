@@ -20,7 +20,7 @@
   position: absolute;
   text-align: center;
 }
-.rick-roll-button {
+.rick-roll-navlink {
   top: 0px;
   left: 0px;
   right: 0px;
@@ -30,30 +30,31 @@
   margin: auto;
   position: absolute;
   align-self: center;
+  text-decoration: none;
   background-color: transparent;
 }
 @media(max-width: 1600px) {
-  .rick-roll-button {
+  .rick-roll-navlink {
     width: 1599px;
   }
 }
 @media(max-width: 1200px) {
-  .rick-roll-button {
+  .rick-roll-navlink {
     width: 1199px;
   }
 }
 @media(max-width: 991px) {
-  .rick-roll-button {
+  .rick-roll-navlink {
     width: 990px;
   }
 }
 @media(max-width: 767px) {
-  .rick-roll-button {
+  .rick-roll-navlink {
     width: 766px;
   }
 }
 @media(max-width: 479px) {
-  .rick-roll-button {
+  .rick-roll-navlink {
     width: 478px;
   }
 }
