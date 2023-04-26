@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <title>SlingsCoolWebsite</title>
+    <style>
+      body {
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+		cursor: pointer;
+      }
+      a {
+        color: white;
+        text-decoration: none;
+      }
+      video {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+	  #link {
+		font-size:300%;
+		font-family:verdana;
+    </style>
+  </head>
+</script>
+  <body id="body">
+    <a href="#" id="link">Sling's Cool Website</a>
+    <video id="video" src="Assets/NotARickroll.mp4"></video>
+    <script>
+      const link = document.getElementById("body");
+      const video = document.getElementById("video");
+      link.addEventListener("click", function(event) {
+        event.preventDefault();
+        video.style.display = "block";
+        video.muted = false;
+        video.play();
+        video.requestFullscreen();
+      });
+    </script>
+  </body>
+</html>
