@@ -26,10 +26,11 @@
 .home-navlink {
   text-decoration: none;
 }
-.home-button1 {
+.home-navlink1 {
   right: 20px;
   bottom: 19px;
   position: absolute;
+  text-decoration: none;
 }
 .home-title {
   margin: 50px;
