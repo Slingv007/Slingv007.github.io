@@ -22,6 +22,7 @@
   --dl-color-success-700: #4CC366;
   --dl-size-size-xxlarge: 288px;
   --dl-size-size-maxwidth: 1400px;
+  --dl-color-darkmode-text: #a7a7a7ff;
   --dl-radius-radius-round: 50%;
   --dl-space-space-halfunit: 8px;
   --dl-space-space-sixunits: 96px;
@@ -32,6 +33,8 @@
   --dl-space-space-fiveunits: 80px;
   --dl-space-space-fourunits: 64px;
   --dl-space-space-threeunits: 48px;
+  --dl-color-darkmode-buttonbg: #1c1c1cff;
+  --dl-color-darkmode-backround: #2f2f2fff;
   --dl-space-space-oneandhalfunits: 24px;
 }
 .button {

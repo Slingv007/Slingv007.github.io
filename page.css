@@ -6,17 +6,21 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  background-color: var(--dl-color-darkmode-backround);
 }
 .page-text {
+  color: var(--dl-color-gray-700);
   font-size: 5em;
   font-style: normal;
   font-weight: 900;
 }
 .page-text1 {
+  color: var(--dl-color-gray-500);
   font-size: 32px;
 }
 .page-navlink {
   left: 0px;
+  color: var(--dl-color-darkmode-text);
   right: 0px;
   width: 221px;
   bottom: 300px;
@@ -26,6 +30,7 @@
   text-align: center;
   line-height: 3.2;
   text-decoration: none;
+  background-color: var(--dl-color-darkmode-buttonbg);
 }
 @media(max-width: 1600px) {
   .page-text1 {

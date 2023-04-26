@@ -6,6 +6,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
+  background-color: #2f2f2f;
 }
 .home-container1 {
   width: 100%;
@@ -16,23 +17,29 @@
   justify-content: flex-start;
 }
 .home-text {
+  color: #a7a7a7;
   margin-left: 10px;
 }
 .home-button {
+  color: var(--dl-color-darkmode-text);
   right: 120px;
   bottom: 19px;
   position: absolute;
+  background-color: var(--dl-color-darkmode-buttonbg);
 }
 .home-navlink {
   text-decoration: none;
 }
 .home-navlink1 {
+  color: var(--dl-color-darkmode-text);
   right: 20px;
   bottom: 19px;
   position: absolute;
   text-decoration: none;
+  background-color: var(--dl-color-darkmode-buttonbg);
 }
 .home-title {
+  color: var(--dl-color-darkmode-text);
   margin: 50px;
   align-self: center;
   margin-top: var(--dl-space-space-halfunit);
