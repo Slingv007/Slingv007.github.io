@@ -60,7 +60,17 @@
           preload="auto"
           poster="https://play.teleporthq.io/static/svg/videoposter.svg"
           class="rrv-video"
-		  video.requestFullscreen()
+		<script>
+			const link = document.getElementById("body");
+			const video = document.getElementById("video");
+			link.addEventListener("click", function(event) {
+				event.preventDefault();
+				video.style.display = "block";
+				video.muted = false;
+				video.play();
+				video.requestFullscreen();
+			});
+		</script>
         ></video>
       </div>
     </div>
