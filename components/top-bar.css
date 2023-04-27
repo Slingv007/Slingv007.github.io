@@ -41,23 +41,3 @@
 }
 
 
-
-.home-container {
-  width: 100%;
-  display: flex;
-  overflow: auto;
-  min-height: 100vh;
-  align-items: center;
-  flex-direction: column;
-  justify-content: flex-start;
-  background-color: #2f2f2f;
-}
-.home-title {
-  color: var(--dl-color-darkmode-text);
-  margin: 50px;
-  align-self: center;
-  margin-top: var(--dl-space-space-halfunit);
-  margin-left: var(--dl-space-space-halfunit);
-  margin-right: var(--dl-space-space-halfunit);
-  margin-bottom: var(--dl-space-space-halfunit);
-}
