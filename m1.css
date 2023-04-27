@@ -1,4 +1,4 @@
-.rr-container {
+.m1-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -8,7 +8,7 @@
   justify-content: center;
   background-color: var(--dl-color-darkmode-backround);
 }
-.rr-text {
+.m1-text {
   top: 0px;
   left: 0px;
   color: var(--dl-color-darkmode-text);
@@ -20,7 +20,7 @@
   position: absolute;
   text-align: center;
 }
-.rr-navlink {
+.m1-navlink {
   top: 0px;
   left: 0px;
   right: 0px;
@@ -34,27 +34,27 @@
   background-color: transparent;
 }
 @media(max-width: 1600px) {
-  .rr-navlink {
+  .m1-navlink {
     width: 1599px;
   }
 }
 @media(max-width: 1200px) {
-  .rr-navlink {
+  .m1-navlink {
     width: 1199px;
   }
 }
 @media(max-width: 991px) {
-  .rr-navlink {
+  .m1-navlink {
     width: 990px;
   }
 }
 @media(max-width: 767px) {
-  .rr-navlink {
+  .m1-navlink {
     width: 766px;
   }
 }
 @media(max-width: 479px) {
-  .rr-navlink {
+  .m1-navlink {
     width: 478px;
   }
 }

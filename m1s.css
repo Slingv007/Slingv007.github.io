@@ -1,4 +1,4 @@
-.rrv-container {
+.m1s-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -8,7 +8,7 @@
   justify-content: flex-start;
   background-color: var(--dl-color-darkmode-buttonbg);
 }
-.rrv-video {
+.m1s-video {
   width: 100%;
   height: 985px;
 }
