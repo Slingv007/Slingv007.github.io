@@ -51,7 +51,16 @@
   flex-direction: column;
   background-color: var(--dl-color-darkmode-backround);
 }
-.memes-navlink {
+.memes-buttons {
+  flex: 0 0 auto;
+  width: auto;
+  height: 219px;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  justify-content: center;
+}
+.memes-rick-roll-button {
   width: 230px;
   height: 219px;
   align-self: flex-start;
@@ -68,6 +77,26 @@
   object-fit: cover;
 }
 .memes-text {
+  color: var(--dl-color-darkmode-text);
+  text-align: center;
+}
+.memes-stick-bug-button {
+  width: 230px;
+  height: 219px;
+  align-self: flex-start;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 20px;
+  text-decoration: none;
+  background-color: #1c1c1c;
+}
+.memes-image1 {
+  width: 196px;
+  height: 181px;
+  align-self: flex-start;
+  object-fit: cover;
+}
+.memes-text3 {
   color: var(--dl-color-darkmode-text);
   text-align: center;
 }
