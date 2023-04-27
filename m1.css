@@ -1,14 +1,14 @@
-.rick-roll-container {
+.rr-container {
   width: 100%;
   display: flex;
   overflow: auto;
   min-height: 100vh;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   background-color: var(--dl-color-darkmode-backround);
 }
-.rick-roll-text {
+.rr-text {
   top: 0px;
   left: 0px;
   color: var(--dl-color-darkmode-text);
@@ -20,13 +20,13 @@
   position: absolute;
   text-align: center;
 }
-.rick-roll-navlink {
+.rr-navlink {
   top: 0px;
   left: 0px;
   right: 0px;
-  width: 1919px;
+  width: 2187px;
   bottom: 0px;
-  height: 989px;
+  height: 1076px;
   margin: auto;
   position: absolute;
   align-self: center;
@@ -34,27 +34,27 @@
   background-color: transparent;
 }
 @media(max-width: 1600px) {
-  .rick-roll-navlink {
+  .rr-navlink {
     width: 1599px;
   }
 }
 @media(max-width: 1200px) {
-  .rick-roll-navlink {
+  .rr-navlink {
     width: 1199px;
   }
 }
 @media(max-width: 991px) {
-  .rick-roll-navlink {
+  .rr-navlink {
     width: 990px;
   }
 }
 @media(max-width: 767px) {
-  .rick-roll-navlink {
+  .rr-navlink {
     width: 766px;
   }
 }
 @media(max-width: 479px) {
-  .rick-roll-navlink {
+  .rr-navlink {
     width: 478px;
   }
 }
